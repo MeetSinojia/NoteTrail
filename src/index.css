@@ -1,0 +1,129 @@
+.container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 100vh;
+}
+
+/* Notes List */
+.notes-list {
+    display: grid;
+    grid-gap: 1em;
+    /* IMP */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.note {
+    background-color: #fef68a;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;
+}
+
+.note-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+/* New Notes */
+.new {
+    background-color: #67d7cc;
+}
+
+.text-new-node {
+    border: none;
+    resize: none;
+    background-color: #67d7cc;
+}
+
+.text-new-node:focus {
+    outline: none;
+}
+
+.save {
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+}
+
+.save:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}
+
+/* Search bar */
+.search {
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.search-icon {
+    margin-right: 5px;
+    /* Add some spacing between the search icon and the input */
+}
+
+input[type="text"] {
+    flex: 1;
+    /* Allow the input to grow and fill the remaining space */
+    border: none;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Dark Mode */
+.dark-mode {
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+}
+
+.dark-mode h1 {
+    color: white;
+}
+
+/* Edit Note */
+.edit-note {
+    border: none;
+    resize: none;
+    background-color: transparent;
+    width: 100%;
+    min-height: 60px;
+    padding: 5px;
+}
+
+.edit-note:focus {
+    outline: none;
+}
+
+.note-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
