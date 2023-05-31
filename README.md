@@ -16,7 +16,7 @@ Notes App is a simple React application that allows users to create, edit, and d
 ## Installation
 1. Clone the repository:
 ```
-git clone [repository_url]
+git clone https://github.com/MeetSinojia/NoteTrail
 ```
 2. Navigate to the project directory:
 ```
@@ -33,7 +33,7 @@ npm start
 5. Open your browser and visit http://localhost:3000 to see the Notes App in action.
 
 ## Usage
-      * The application loads with some example notes prepopulated.
+* The application loads with some example notes prepopulated.
 * To add a new note, type in the text area and click the "Save" button.
 * To edit an existing note, click on the note text and make the desired changes. Press Enter or click outside the note to save the changes.
 * To delete a note, click on the delete icon.
